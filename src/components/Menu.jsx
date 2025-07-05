@@ -36,7 +36,7 @@ const Menu = () => {
             <h2 id='menu-heading' className='sr-only'>
                 Cocktail Menu
             </h2>
-            <nav className="cocktail-tabs bg-transparent" aria-label='Cocktail Navigation'>
+            <nav className="cocktail-tabs" aria-label='Cocktail Navigation'>
                 {allCocktails.map((cocktail, idx)=>{
                     const isActive = idx === currentIdx
                     return (
